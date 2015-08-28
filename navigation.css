@@ -1,0 +1,58 @@
+/* To work properly you need to include Roboto in your html, as well as body, a and .front_page in your stylesheet*/
+
+
+
+.virtual_container{
+	display: flex;
+  	justify-content: space-between;
+  	align-items: center;
+}
+
+
+#nav_container{
+	/*margin: 0px 60px 0px 60px;*/
+	margin-left: 3%;
+  	margin-right: 5%;
+  	height: 75px;
+}
+
+
+#nav_bar{
+	background-color: rgba(255,255,255,0.7);
+	position: fixed;
+	z-index:11;
+}
+
+
+#logo{
+	height: 50px;
+	width: auto;
+	/*margin-top: 15px;
+	margin-left: 30px;*/
+}
+
+
+.links{
+	height: 32px;
+	width: 125px;
+	line-height: 31px;
+	display: inline-block;
+	border: 1px solid #2775D1;
+	color:#2775D1;
+
+/*	border: 1px solid #FD494F;
+	color:#FD494F;*/
+
+	font-family:'Roboto';
+	font-weight: 300;
+	font-size: 12pt;
+	text-align: center;
+	border-radius: 1px;
+}
+
+
+.links:hover{
+	background-color:rgba(62,62,62,0.1);
+	/*background-color:rgba(39,117,209,0.1);  
+	*/
+}

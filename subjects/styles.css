@@ -1,0 +1,21 @@
+body{
+	position:absolute;
+	margin: 0;
+	padding: 0;
+	width:100%;
+	overflow-x: hidden;	
+}
+
+
+a{
+	text-decoration: none;
+}
+
+.front_page {
+	display: block;
+	margin: 0;
+	padding: 0;
+	position: relative;
+	width:100%;
+
+}
