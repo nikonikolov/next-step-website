@@ -3,20 +3,42 @@
 	<head>
 
 		<script src="/jquery-2.1.4.js"></script>
-		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300' rel='stylesheet' type='text/css'>
-		
+		<link href='http://fonts.googleapis.com/css?family=Roboto:500,400,100,300' rel='stylesheet' type='text/css'>
 
 		<!-- Link navigation bar -->
-		<script type="text/javascript" src="/navigation.js"></script>
-		<link type="text/css" rel="stylesheet" href="/navigation.css"/>
+		<script type="text/javascript" src="/navigation/navigation.js"></script>
+		<link type="text/css" rel="stylesheet" href="/navigation/navigation.css"/>
 
+		<!-- Link for page custom styling and functionality-->
 		<link type="text/css" rel="stylesheet" href="/subjects/styles.css"/>
+		<script type="text/javascript" src="/subjects/script.js"></script>
 
+		
 	</head>
 	
 	<body>
 
 		<div id="navigation"></div>
+
+		<div class="page_block">
+			<img id="cover_photo" src="/images/cover_subjects3.jpg"/>
+		</div>
+
+		<div class="page_block">
+			
+			<h3>Subjects</h3>
+
+			<div class="virtual_container" id="cards_containger">
+
+				<div class="card" id="electornics">
+					<img class="card_img" src="/images/electronics.jpg"/>
+					<h4>Electronics</h4>
+						<p class="card_description">Learn about rapid hardware prototyping, low-level computing and robotics</p>
+						<div class="line"></div>
+						<h5>GET STARTED</h5>
+				</div>
+			</div>
+		</div>
 
 	</body>
 
