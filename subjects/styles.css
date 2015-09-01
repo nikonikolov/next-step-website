@@ -47,16 +47,20 @@ h3{
 }
 
 
+#cards_container{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+
 .card{
 	background-color: #FFFFFF;
-	border: 0px solid rgba(255,255,255,0.0);
 	border-radius: 1px;
 	box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.7);
 	width: 350px;
 	float: bottom;
 	display: inline-block;
-	position: relative;
-	margin-left: 7%;
+	position: relative;	
 	margin-bottom: 100px;		/* fix this*/
 	overflow: hidden;
 	z-index: 1;	
@@ -64,7 +68,6 @@ h3{
 
 
 .card_hover{
-	background-color: #FFFFFF;
 	cursor: pointer;
 }
 
@@ -72,16 +75,22 @@ h3{
 .card_img{
 	width: 350px;
 	height: 200px;
-	z-index: 2;
-	/*background:
-		linear-gradient(
-			rgba(62,62,62, 0.0),
-			rgba(62,62,62, 0.0)
-		),
-		url(/images/electronics.jpg);*/
+	background-size: 350px 200px;
+}
 
-	background-image: url(/images/electronics.jpg);
 
+.mask{
+	background-color: rgba(255,255,255,0.0);
+	width: 350px;
+	height: 200px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+
+.mask_hover{
+	background-color: rgba(255,255,255,0.3);
 }
 
 
@@ -116,30 +125,23 @@ h5{
 	font-family: "Roboto";
 	font-size: 10pt;
 	font-weight: 500;
-	text-align:left;
-	margin-left: 5%;
-	margin-top: 4%;
-	margin-bottom: 4%; 
-
-}
-
-/*h5:hover{
-	color:#3F51B5;
-	font-family: "Roboto";
-	font-size: 10pt;
-	font-weight: 500;
 	text-align:center;
-	margin-left: 5%;
-	margin-top: 4%;
-	margin-bottom: 4%; 
-	line-height: 27px;
+	margin-left: 3%;
+	margin-top: 2%;
+	margin-bottom: 2%; 
+	line-height: 23px;
 	padding-top: 4px;
 	padding-bottom: 4px;
 	width: 110px;
-	background-color: #EBEBEB;
+	height: 23px;
+	background-color: #FFFFFF;
 	border-radius: 2px;
-}*/
+}
 
+
+.h5_hover{
+	background-color: #EBEBEB;
+}
 
 .line{
 	background-color: #C8C8C8;
