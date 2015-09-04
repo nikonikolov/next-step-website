@@ -39,7 +39,6 @@ h3{
   	align-items: center;
 }
 
-
 #cover_photo {
 	margin: 0;
 	padding: 0;
@@ -48,8 +47,13 @@ h3{
 
 
 #cards_container{
-	margin-left: 5%;
-	margin-right: 5%;
+	/*margin-left: 5%;
+	margin-right: 5%;*/
+	display:                 -webkit-flex; /* Safari */
+ 	flex-wrap:               wrap;
+  	-webkit-flex-wrap:       wrap;         /* Safari */
+  	justify-content:         center;
+  	-webkit-justify-content: center;       /* Safari */
 }
 
 
@@ -58,12 +62,16 @@ h3{
 	border-radius: 1px;
 	box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.7);
 	width: 350px;
-	float: bottom;
+	/*float: bottom;*/
 	display: inline-block;
-	position: relative;	
-	margin-bottom: 100px;		/* fix this*/
+	position: relative;
+	margin-left: 3%;
+	margin-right: 3%;	
+	margin-bottom: 70px;
 	overflow: hidden;
 	z-index: 1;	
+
+	
 }
 
 
