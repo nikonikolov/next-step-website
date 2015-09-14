@@ -19,4 +19,19 @@ $(document).ready( function() {
 			$(this).toggleClass('card_hover');
 			$(button).toggleClass('h5_hover');
 	});
+	
+	$('.card').click( 
+
+		function(){
+			$(mask).toggleClass('mask_hover');
+			$(button).toggleClass('h5_hover');
+			$(button).toggleClass('h5_click');
+			
+			setTimeout( function() {
+				$(button).toggleClass('h5_click');
+       		 	$(button).toggleClass('h5_hover');
+				$(mask).toggleClass('mask_hover');
+   			 }, 150);		
+	});
+
 });

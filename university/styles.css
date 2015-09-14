@@ -137,7 +137,8 @@ h5{
 }
 
 .h5_hover{
-	color: #FF4081;
+	/*color: #FF4081; /* pink */
+	color:#5E35B1;
 }
 
 .line{

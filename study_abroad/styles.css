@@ -161,8 +161,14 @@ h5{
 }
 
 
-.h5_hover{
+.h5_click{
+	color: #3F51B5;
 	background-color: #EBEBEB;
+}
+
+.h5_hover{
+	/*color: #FF4081; /* pink */
+	color:#5E35B1;
 }
 
 .line{
