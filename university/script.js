@@ -16,6 +16,7 @@ $(document).ready( function() {
 			$(this).click( 
 
 		function(){
+			console.log("ENTER");
 			mask= $(this).find(".mask");
 			button1 = $(this).find('h5');
 			$(button).toggleClass('h5_hover');
@@ -24,7 +25,7 @@ $(document).ready( function() {
 			$(button).toggleClass('h5_click');
        		 
        		 $(button).toggleClass('h5_hover');
-   			 }, 1000);
+   			 }, 500);
 			//$(button).delay("slow").toggleClass('h5_hover');
 
 			//$(button).delay(1000).toggleClass('h5_click');
