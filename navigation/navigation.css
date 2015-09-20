@@ -50,6 +50,9 @@
 	border-radius: 1px;
 }
 
+.links_on{
+	background-color:rgba(15,46,82,0.2);
+}
 
 .links:hover{
 	background-color:rgba(62,62,62,0.1);
