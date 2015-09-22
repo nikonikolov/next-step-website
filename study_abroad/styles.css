@@ -39,6 +39,7 @@ h3{
   	align-items: center;
 }
 
+
 #cover_photo {
 	margin: 0;
 	padding: 0;
@@ -56,26 +57,59 @@ h3{
   	-webkit-justify-content: center;       
 }*/
 
+/* ********************************** CARD START ********************************** */
+
+
+.card_container{
+	padding-top: 50px;
+	display:block;
+	width:100%;
+	position:relative;
+}
+
+.card_background{
+	background-color: #F1F1F1;	
+	display:block;
+	width:100%;
+	height: 300px;
+	position: absolute;
+	top:0;
+	left:0;
+}
+
+
+.card_background_clicked{
+	background-color: #3F51B5;		
+}
+
 
 .card{
 	background-color: #FFFFFF;
 	border-radius: 1px;
 	box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.7);
 	width: 1000px;
-	height: 200px;
 	text-align: center;
 	display: block;
 	position: relative;
 	margin: auto;
 	margin-bottom: 70px;
 	overflow: hidden;
-	z-index: 1;	
-
-	
+	z-index: 2;	
 }
 
 
-.card_hover{
+.card_display{
+	width: 100%;
+	height: 200px;
+	text-align: center;
+	display: block;
+	position: relative;
+	margin: auto;
+	overflow: hidden;
+}
+
+
+.card_display_hover{
 	cursor: pointer;
 }
 
@@ -127,7 +161,7 @@ h4{
 }
 
 
-.card_description{
+.card_resume{
 	color:#7B7B7B;
 	font-family: "Roboto";
 	font-size: 10pt;
@@ -171,7 +205,7 @@ h5{
 	color:#5E35B1;
 }
 
-.line{
+.card_line{
 	background-color: #C8C8C8;
 	width: 800px;
 	height: 1px;
@@ -182,8 +216,38 @@ h5{
 }
 
 
+.card_content{
+	width:100%;
+	display: block;
+	position: relative;
+}
 
-.line_full{
+
+.card_link{
+	color:#3F51B5;
+	font-family: "Roboto";
+	font-size: 13pt;
+	font-weight: 400;	
+}
+
+
+.card_description{
+	color:#7B7B7B;
+	font-family: "Roboto";
+	font-size: 10pt;
+	font-weight: 400;
+	text-align: left;
+	position: relative;
+	margin-left: 6%;
+	margin-right: 6%;
+	/*margin-top: 1%;
+	margin-bottom: 1%;*/
+}
+
+
+/* ********************************** CARD END ********************************** */
+
+.page_line{
 	height: 1px;
 	background-color: #C8C8C8;
 	margin-left: 1%;
