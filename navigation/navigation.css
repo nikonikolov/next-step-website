@@ -1,13 +1,12 @@
-/* To work properly you need to include Roboto in your html, as well as body, a and .page_block in your stylesheet*/
+/* To work properly you need to include Roboto in your html, as well as body, a and .gen_sub_block in your stylesheet*/
 
 
 
-.virtual_container{
+.gen_virtual_container{
 	display: flex;
   	justify-content: space-between;
   	align-items: center;
 }
-
 
 #nav_container{
 	/*margin: 0px 60px 0px 60px;*/
@@ -29,7 +28,7 @@
 	background-color: rgba(255,255,255,0.85);
 }
 
-#logo{
+#logo_nav{
 	height: 36px;
 	width: auto;
 	/*margin-top: 15px;
