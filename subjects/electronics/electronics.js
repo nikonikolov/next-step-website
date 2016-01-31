@@ -18,7 +18,7 @@ $(document).ready( function() {
 	});
 
 
-	// Scroll to ABOUT page
+	// Scroll to RESOURCES page
 	$('#res_btn').click( function() {
 		$('html, body').animate({
         	scrollTop: $("#res_page").offset().top
@@ -26,7 +26,7 @@ $(document).ready( function() {
 
 	});
 
-	// Scroll to ABOUT page
+	// Scroll to COURSES page
 	$('#courses_btn').click( function() {
 		$('html, body').animate({
         	scrollTop: $("#courses_page").offset().top
@@ -35,7 +35,7 @@ $(document).ready( function() {
 	});
 
 
-	// Scroll to HOW IT WORKS page
+	// Scroll to COMPETITIONS page
 	$('#competitions_btn').click( function() {
 		$('html, body').animate({
         	scrollTop: $("#competitions_page").offset().top

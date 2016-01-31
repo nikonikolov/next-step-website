@@ -16,13 +16,20 @@
 		<link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,500,600,700,900' rel='stylesheet' type='text/css'>
     	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-	    <!-- Link the script and stylesheet for this particular page -->
-		<link type="text/css" rel="stylesheet" href="/university/university.css"/>
-		<script type="text/javascript" src="/university/university.js"></script>
-
 		<!-- Link navigation bar -->
 		<script type="text/javascript" src="/navigation/navigation.js"></script>
 		<link type="text/css" rel="stylesheet" href="/navigation/navigation.css"/>
+
+		<!-- Link footer -->
+		<script type="text/javascript" src="/footer/footer.js"></script>
+		<link type="text/css" rel="stylesheet" href="/footer/footer.css"/>
+
+	    <!-- Link the general properties script and stylesheet -->
+		<link type="text/css" rel="stylesheet" href="/general_styles.css" />
+		<script type="text/javascript" src="/general_script.js"></script>
+
+	    <!-- Link the script and stylesheet for this particular page -->
+		<link type="text/css" rel="stylesheet" href="/university/university.css"/>
 
 		<!-- Link website icon -->
 		<link rel="shortcut icon" href="/images/favicon.ico">
@@ -33,106 +40,186 @@
 		
 		<div id="navigation"></div>
 
-		<div class="page_block">
-			<img id="cover_photo" src="/images/cover_mit.jpg"/>
-			<!-- mit4 or columbia1-->
+		<div class="gen_sub_block">
+			<div id="university_title_container" class="gen_title_container">
+				<h2>University</h2>
+			</div>
+			<img class="gen_cover_photo" src="/images/cover_mit.jpg"/>
 		</div>
 
-		<div class="page_block">
+		<div class="gen_sub_block">
 			
-			<h3>Universities</h3>
+			<h3>United States Universities</h3>
 
-			<p class="about_paragraph">
-				
+			<p class="gen_about_paragraph">The universities listed below are one of the best in the United States and in the words. Note that ALL listed universities provide FINANCIAL AID that will usually cover all your expenses. For details, however, DO CHECK the information provided at the institution's website. And remember that the combination of quality of education, opportunities, social life and college experience that US universities have to offer you, is UNPARALELLED.
 			</p>
 		
-			<div class="virtual_container" id="cards_container">
+			<div class="gen_virtual_container" id="gen_multicards_container" >
 
-				<a class="card" href="https://college.harvard.edu/admissions/apply" >
+				<a class="gen_small_card" href="https://college.harvard.edu/admissions/apply" >
 					
-					<img class="card_img" src="/images/Harvard.jpg" />
-					<div class="mask"></div>
-					<p class="card_description">Cambridge, Masachussetts</p>
-					<div class="line"></div>
+					<img class="gen_small_card_img" src="/images/Harvard.jpg" />
+					<div class="gen_small_card_mask"></div>
+					<p class="gen_small_card_description">Cambridge, Masachussetts</p>
+					<div class="gen_small_card_line"></div>
 					<h5>GET STARTED</h5>
 				</a>
 
-				<a class="card" href="http://admission.princeton.edu/applyingforadmission" >
-					<img class="card_img" src="/images/Princeton.jpg" />
-					<div class="mask"></div>
-					<p class="card_description">Princeton, New Jersey</p>
-					<div class="line"></div>
+				<a class="gen_small_card" href="http://admission.princeton.edu/applyingforadmission" >
+					<img class="gen_small_card_img" src="/images/Princeton.jpg" />
+					<div class="gen_small_card_mask"></div>
+					<p class="gen_small_card_description">Princeton, New Jersey</p>
+					<div class="gen_small_card_line"></div>
 					<h5>GET STARTED</h5>
 				</a>
 
-				<a class="card" href="http://admissions.yale.edu/freshman-application-process" >
-					<img class="card_img" src="/images/Yale.jpg" />
-					<div class="mask"></div>
-					<p class="card_description">New Haven, Connecticut</p>
-					<div class="line"></div>
+				<a class="gen_small_card" href="http://admissions.yale.edu/freshman-application-process" >
+					<img class="gen_small_card_img" src="/images/Yale.jpg" />
+					<div class="gen_small_card_mask"></div>
+					<p class="gen_small_card_description">New Haven, Connecticut</p>
+					<div class="gen_small_card_line"></div>
 					<h5>GET STARTED</h5>
 				</a>
 
-				<a class="card" href="https://undergrad.admissions.columbia.edu/apply/first-year" >
-					<img class="card_img" src="/images/Columbia.jpg" />
-					<div class="mask"></div>
-					<p class="card_description">New York City, New York</p>
-					<div class="line"></div>
+				<a class="gen_small_card" href="https://undergrad.admissions.columbia.edu/apply/first-year" >
+					<img class="gen_small_card_img" src="/images/Columbia.jpg" />
+					<div class="gen_small_card_mask"></div>
+					<p class="gen_small_card_description">New York City, New York</p>
+					<div class="gen_small_card_line"></div>
 					<h5>GET STARTED</h5>
 				</a>
 
-				<a class="card" href="http://www.admissions.upenn.edu/apply/freshman-admission" >
-					<img class="card_img" src="/images/Penn.jpg" />
-					<div class="mask"></div>
-					<p class="card_description">Philadelphia, Pennsylvania</p>
-					<div class="line"></div>
+				<a class="gen_small_card" href="http://www.admissions.upenn.edu/apply/freshman-admission" >
+					<img class="gen_small_card_img" src="/images/Penn.jpg" />
+					<div class="gen_small_card_mask"></div>
+					<p class="gen_small_card_description">Philadelphia, Pennsylvania</p>
+					<div class="gen_small_card_line"></div>
 					<h5>GET STARTED</h5>
 				</a>
 
-				<a class="card" href="http://www.brown.edu/admission/undergraduate/apply" >
-					<img class="card_img" src="/images/Brown.jpg" />
-					<div class="mask"></div>
-					<p class="card_description">Providence, Rhode Island</p>
-					<div class="line"></div>
+				<a class="gen_small_card" href="http://www.brown.edu/admission/undergraduate/apply" >
+					<img class="gen_small_card_img" src="/images/Brown.jpg" />
+					<div class="gen_small_card_mask"></div>
+					<p class="gen_small_card_description">Providence, Rhode Island</p>
+					<div class="gen_small_card_line"></div>
 					<h5>GET STARTED</h5>
 				</a>
 
-				<a class="card" href="http://admissions.dartmouth.edu/apply/choose-your-path/regular-decision" >
-					<img class="card_img" src="/images/Dartmouth.jpg" />
-					<div class="mask"></div>
-					<p class="card_description">Hanover, New Hampshire</p>
-					<div class="line"></div>
+				<a class="gen_small_card" href="http://admissions.dartmouth.edu/apply/choose-your-path/regular-decision" >
+					<img class="gen_small_card_img" src="/images/Dartmouth.jpg" />
+					<div class="gen_small_card_mask"></div>
+					<p class="gen_small_card_description">Hanover, New Hampshire</p>
+					<div class="gen_small_card_line"></div>
 					<h5>GET STARTED</h5>
 				</a>
 
-				<a class="card" href="http://admissions.cornell.edu/apply/first-year-applicants" >
-					<img class="card_img" src="/images/Cornell.jpg" />
-					<div class="mask"></div>
-					<p class="card_description">Ithaca, New York</p>
-					<div class="line"></div>
+				<a class="gen_small_card" href="http://admissions.cornell.edu/apply/first-year-applicants" >
+					<img class="gen_small_card_img" src="/images/Cornell.jpg" />
+					<div class="gen_small_card_mask"></div>
+					<p class="gen_small_card_description">Ithaca, New York</p>
+					<div class="gen_small_card_line"></div>
 					<h5>GET STARTED</h5>
 				</a>
 
-				<a class="card" href="http://mitadmissions.org/apply" >
-					<img class="card_img" src="/images/MIT.jpg" />
-					<div class="mask"></div>
-					<p class="card_description">Cambridge, Masachussetts</p>
-					<div class="line"></div>
+				<a class="gen_small_card" href="http://mitadmissions.org/apply" >
+					<img class="gen_small_card_img" src="/images/MIT.jpg" />
+					<div class="gen_small_card_mask"></div>
+					<p class="gen_small_card_description">Cambridge, Masachussetts</p>
+					<div class="gen_small_card_line"></div>
 					<h5>GET STARTED</h5>
 				</a>
 
-				<a class="card" href="http://admission.stanford.edu/application/" >
-					<img class="card_img" src="/images/Stanford.jpg" />
-					<div class="mask"></div>
-					<p class="card_description">Stanford, California</p>
-					<div class="line"></div>
+				<a class="gen_small_card" href="http://admission.stanford.edu/application/" >
+					<img class="gen_small_card_img" src="/images/Stanford.jpg" />
+					<div class="gen_small_card_mask"></div>
+					<p class="gen_small_card_description">Stanford, California</p>
+					<div class="gen_small_card_line"></div>
 					<h5>LEARN MORE</h5>
 				</a>
 
 			</div>
 		</div>
 	
-		<div class="line_full"></div>
+		<div class="gen_line"></div>
+		<div class="gen_sub_block">
+			<h3>Tips</h3>
+
+			<p class="gen_about_paragraph">The most important piece of advice when applying to US universities is to START PREPARING EARLY. Normally the right time would be eight or ninth grade. If you are late, do not worry, the fight is not lost. There are a lot of pitfalls in creating a successful application, so we encourage you to try to gain as much information as possible. A good starting point would be to connect to successful applicants from previous years and to the Fulbright Center in Sofia. The application can be divided into several stages, which are briefly covered below. Please pay special attention to the Extra Flair section. We still encourage you to assemble more information yourself and definitely check the requirements of the specific universities way before you start preparing your application.
+			</p>
+
+			<ul class="uni_internal_links_container">
+				<li class="uni_internal_link">General Information</li>
+				<li class="uni_internal_link">School Record</li>
+				<li class="uni_internal_link">Exams</li>
+				<li class="uni_internal_link">Extracurricliar Activities</li>
+				<li class="uni_internal_link">Extra Flair</li>
+				<li class="uni_internal_link">Essays</li>
+			</ul>
+		</div>	
+		<div class="gen_line"></div>
+		<div class="gen_sub_block">
+
+			<h3>General Information</h3>
+
+			<p class="gen_about_paragraph">The most important piece of advice when applying to US universities is to START PREPARING EARLY. Normally the right time would be eight or ninth grade. If you are late, do not worry, the fight is not lost. There are a lot of pitfalls in creating a successful application, so we encourage you to try to gain as much information as possible. A good starting point would be to connect to successful applicants from previous years and to the Fulbright Center in Sofia. The application can be divided into several stages, which are briefly covered below. We still encourage you to assemble more inforamtion yourself and definitely check the requirements of the specific universities way before you start assembling your application.
+			</p>
+		</div>
+		<div class="gen_line"></div>
+		<div class="gen_sub_block">
+			
+			<h3>School Record</h3>
+
+			<p class="gen_about_paragraph">The most important piece of advice when applying to US universities is to START PREPARING EARLY. Normally the right time would be eight or ninth grade. If you are late, do not worry, the fight is not lost. There are a lot of pitfalls in creating a successful application, so we encourage you to try to gain as much information as possible. A good starting point would be to connect to successful applicants from previous years and to the Fulbright Center in Sofia. The application can be divided into several stages, which are briefly covered below. We still encourage you to assemble more inforamtion yourself and definitely check the requirements of the specific universities way before you start assembling your application.
+			</p>
+		</div>
+		<div class="gen_line"></div>
+		<div class="gen_sub_block">
+			
+			<h3>Exams</h3>
+
+			<p class="gen_about_paragraph exam_paragraph">These most often include the following:</p> 
+
+			<ul>
+				<li class="exams">SAT Reasoning Test</li>
+					<p class="gen_about_paragraph exam_paragraph">The hardest one of these is the SAT Reasoning Test. You should as always start preparing early and do check what exam dates are available at your nearest test center. Note that in long term, the best preparation for this test is READING CLASSICAL AMERICAN LITERATURE from 18th, 19th and 20th century. This will include at least 2 or 3 books. Remember that a really good SAT result can bring you extra points. In short term, you can best prepare by solving a lot of sample tests in EXAM CONDITIONS. We DO recommend buying the official SAT exam book from CollegeBoard. An outstanding result will generally be anything above 2300. Usually if you score more than 2150 you should not worry, but remember test scores alone do not mean much if they are not reinforced by a strong application.</p> 
+				<li class="exams">SAT Subject Tests</li>
+					<p class="gen_about_paragraph exam_paragraph">These should not be hard for a bright mind like you and you should definitely try to score the maximum. Barrons' exam books for the specific test should be a good preparation resource. Note there is usually some material that is taught in 11th and 12th grades in Bulgarian Schools. This should not stop you from taking the test earlier than that and still scoring the maximum. Again, DO a lot of sample tests!  
+				<li class="exams">TOEFL/IELTS</li>
+					<p class="gen_about_paragraph exam_paragraph">After taking the SAT Reasoning Test, this should feel like a piece of cake. You do not necessarily need a really high result on this test - universities require it as an evidence you can speak English. A score higher than 105 would usually be all you need.
+			</ul>
+
+			<p class="gen_about_paragraph exam_paragraph"><br>Although the above may sound easy, you should definitely take your time to study properly. You can often find yourself spending weeks preparing only for a single exam. Note as well the reference scores provided above are not at all conclusive and might vary accross universities. For details, check the Tests/Exams section on the target university's website. Do not forget you should usually register for a test approximately a month before it takes place</p> 
+
+		</div>
+		<div class="gen_line"></div>
+		<div class="gen_sub_block">
+		
+			<h3>Extracurricular Activities</h3>
+
+			<p class="gen_about_paragraph">The most important piece of advice when applying to US universities is to START PREPARING EARLY. Normally the right time would be eight or ninth grade. If you are late, do not worry, the fight is not lost. There are a lot of pitfalls in creating a successful application, so we encourage you to try to gain as much information as possible. A good starting point would be to connect to successful applicants from previous years and to the Fulbright Center in Sofia. The application can be divided into several stages, which are briefly covered below. We still encourage you to assemble more inforamtion yourself and definitely check the requirements of the specific universities way before you start assembling your application.
+			</p>
+		</div>
+		<div class="gen_line"></div>
+		<div class="gen_sub_block">
+			
+			<h3>Extra Flair</h3>
+
+			<p class="gen_about_paragraph">Probably the MOST IMPORTANT piece of your application. Remember that most of the other applicant will also have excellent test results and school records. This section can help you shine by showing your accomplishments in your field of study. These will usually include International Competitions and Olympiads, some of which are listed in the Competitions section on our website. Note that a single medal at International Olympiad might not mean a lot (we might be wrong here: we are speaking from personal experience but there have been occassional cases that have proven this statement wrong). Generally, you will be expected to show a good track of accomplishments at International Level and it will be marvellous if you can show accomplishements in more than one field - this will really make you stick out. This is hardly achieved overnight and requires a lot of persistence and studying. However, it remains one of the most important parts of your application. 
+
+			On a separate note: to be allowed to partricipate in International Olympiads you are expected to be in top few at the respective National Olympiad. For more information and possibly preparation ask your school teacher. You should be also able to find the information you need on Google. Now go to the Subjects section on our website and start studying.
+			</p>
+		</div>
+		<div class="gen_line"></div>
+		<div class="gen_sub_block">
+		
+			<h3>Essays</h3>
+
+			<p class="gen_about_paragraph">The most important piece of advice when applying to US universities is to START PREPARING EARLY. Normally the right time would be eight or ninth grade. If you are late, do not worry, the fight is not lost. There are a lot of pitfalls in creating a successful application, so we encourage you to try to gain as much information as possible. A good starting point would be to connect to successful applicants from previous years and to the Fulbright Center in Sofia. The application can be divided into several stages, which are briefly covered below. We still encourage you to assemble more inforamtion yourself and definitely check the requirements of the specific universities way before you start assembling your application.
+			</p>
+		</div>
+
+		<!-- ************************** FOOTER ********************************* -->
+		<div id="footer_here"></div>
 
 	</body>
 
