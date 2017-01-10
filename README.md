@@ -1,8 +1,10 @@
-# Next-Step-Website
-For Testing on Local Machine:
+# Next-Step Website
+## Available at 
+http://nikonikolov.github.io/next-step-website/
 
-Assuming you have Python 2.* installed, run in terminal
-`python -m SimpleHTTPServer`
-and go to page http://127.0.0.1:8000/
-
-You can also find it on http://nextstep.paperplane.io/
+## Testing on Local Machine:
+Run in terminal from the root directory (you need Python 2.7+):
+```
+python -m SimpleHTTPServer
+```
+Then go to page http://127.0.0.1:8000/
