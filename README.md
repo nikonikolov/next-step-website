@@ -1,6 +1,7 @@
 # Next-Step Website
 ## Available at 
-http://nikonikolov.github.io/next-step-website/
+- http://nextstep.paperplane.io/
+- http://nikonikolov.github.io/nextstep-website/ (currently not working - bug related to github pages)
 
 ## Testing on Local Machine:
 Run in terminal from the root directory (you need Python 2.7+):
